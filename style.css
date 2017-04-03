@@ -55,7 +55,7 @@ bottom:30%;
 li a img{
   height:40px;
 }
-/*responsive styling*/
+/*mobile styling*/
 @media (max-width:450px){
   .future{
     font-size:1.5em;
