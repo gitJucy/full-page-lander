@@ -18,6 +18,7 @@ h1{
 }
 .video{
   position:fixed;
+  size:cover;
   min-width: 100%;
   min-height: 100vh;
   height: auto;
@@ -31,8 +32,8 @@ h1{
 }
 .content{
   /*border:solid 1px pink;*/
-  max-width:400px;
-  font-size: 2em;
+  max-width:500px;
+  font-size: 2.5em;
   max-height:100vh;
 
 }
@@ -46,8 +47,11 @@ bottom:30%;
 }
 .find{
   font-size: 2.5em;
-
 }
+.foot-wrapper ul li{
+  padding: 0 30px;
+}
+
 .future{
   font-size: 3em;
   font-weight: bold;
@@ -55,6 +59,7 @@ bottom:30%;
 }
 li a img{
   height:40px;
+
   opacity:0.6;
 }
 .foot-wrapper ul li{
@@ -71,4 +76,10 @@ li a img{
   .content{
     font-size:1em;
   }
+  li a img{
+    height:20px;
+    opacity: 0.5;
+
+  }
+
 }
