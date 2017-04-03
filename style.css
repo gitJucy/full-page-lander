@@ -55,6 +55,10 @@ bottom:30%;
 }
 li a img{
   height:40px;
+  opacity:0.6;
+}
+.foot-wrapper ul li{
+  padding:0 30px;
 }
 /*mobile responsive styling*/
 @media (max-width:450px){
