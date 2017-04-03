@@ -49,9 +49,21 @@ bottom:30%;
 
 }
 .future{
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: bold;
 }
 li a img{
   height:40px;
+}
+/*responsive styling*/
+@media (max-width:450px){
+  .future{
+    font-size:1.5em;
+  }
+  .find{
+    font-size:1em;
+  }
+  .content{
+    font-size:1em;
+  }
 }
