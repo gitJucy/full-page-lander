@@ -51,6 +51,7 @@ bottom:30%;
 .future{
   font-size: 3em;
   font-weight: bold;
+  letter-spacing: .5em;
 }
 li a img{
   height:40px;
