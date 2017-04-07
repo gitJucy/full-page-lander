@@ -54,6 +54,7 @@ bottom:30%;
 }
 .foot-wrapper ul li{
   padding: 0 25px;
+  position:static;
 }
 .copy{
   width:100px;
@@ -97,6 +98,12 @@ li a img{
     height:20px;
     opacity: 0.5;
 
+  }
+  .copy{
+    font-size: .5em;
+    color:rgba(0,0,0,0.9);
+    width:50px;
+    font-weight: bolder;
   }
 
 }
