@@ -75,7 +75,6 @@ bottom:30%;
 i{
   color:rgb(46,46,46);
   padding:0 30px;
-  opacity:.7;
 }
 /*.foot-wrapper ul li{
   padding:0 25px;
@@ -97,7 +96,7 @@ i{
   li a i{
     font-size: 1.5em;
     padding: 0 0px;
-    opacity: 0.7;
+    opacity: 1;
 
   }
   .copy{
