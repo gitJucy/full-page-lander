@@ -2,7 +2,7 @@
 
 $('#image-list').hide();
 $('#future').click(function(){
-  $('#image-list').fadeIn(500);
+  $('#image-list').show();
   $('#content').fadeOut(500);
   $('#name').fadeOut(500);
   $('#future').fadeOut(500);
@@ -10,4 +10,4 @@ $('#future').click(function(){
 
 
 
-})
+});

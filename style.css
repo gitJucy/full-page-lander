@@ -107,3 +107,11 @@ i{
   }
 
 }
+.gallery-box{
+  position:relative;
+  height:80vh;
+  width:500px;
+}
+.image-list{
+  position: absolute;
+}
