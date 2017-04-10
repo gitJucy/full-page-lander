@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
     <link rel="icon" type="image/png" href="assets/img/codicon.png">
     <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/lightbox-dist/css/lightbox.min.css">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,11 +26,12 @@
   </head>
   <body >
 <div class="body-wrapper">
-  <h1> John Lucy </h1>
+  <h1 id="name"> John Lucy </h1>
   <div class="container sub-head">
     <p id ="content"class=" text-center">
       UI / UX by a real person.
-      <br /></p>
+      <br />
+    </p>
   </div>
   <div class="container cta navbar-fixed-bottom ">
     <a href="#" class="text-center">
@@ -36,6 +39,12 @@
         <p class="future"id="future">ARTWORK </p>
     </a>
   </div>
+</div class="container gallery-box">
+  <ul id="image-list">
+    <a href="portfolio-pictures\diehl-main.PNG" data-lightbox="diehl-site" </a>
+
+  </ul><!--end of image-list-->
+</div><!--end of gallery-box-->
   <!--  footer section of page with social icons-->
   <div class="container foot-wrapper navbar-fixed-bottom">
     <ul id="social-buttons"class="list-unstyled list-inline text-center">
@@ -64,6 +73,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/lightbox-dist/js/lightbox-plus-jquery.min.js"></script>
     <script src="main.js"></script>
+    <script src="assets/gallery.js"></script>
   </body>
 </html>
