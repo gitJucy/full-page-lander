@@ -12,5 +12,6 @@ $(document).ready(function(){
 
       $('#hint').hide().delay(10000).fadeIn();
       $('#slides').hide();
-
+      $('.slides-wrapper').hide();
+      $('#find').hide();
     });

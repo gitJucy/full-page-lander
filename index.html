@@ -39,19 +39,22 @@
         <p class="future"id="future">ARTWORK </p>
     </a>
   </div>
-<div class=" container gallery" id="slides">
-    <img src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\diehl-about.PNG"/>
-    <img src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\diehl-login.PNG">
-    <img src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\diehl-main.PNG"/>
-    <img src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\portfolio.PNG"/>
-    <img src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\quick-email-design.PNG"/>
-    <img src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\Simple-List-iphone5.PNG"/>
-    <img src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\Simple-List-iphone6plus.PNG"/>
-    <img src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\Simple-List-landscape-searchbar.PNG"/>
-    <img src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\Simple-List-responsive-small.PNG"/>
-    <img src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\web-artist-jquery-scroll.PNG"/>
-    <img src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\web-artist-landing.PNG"/>
-</div><!--end of gallery-wrapper-->
+<div class=" slidesjs-control container slides-wrapper">
+  <div id="slides">
+    <img class="slidejs-slide img-responsive"src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\diehl-main.PNG"/>
+    <img class="slidejs-slide img-responsive "src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\diehl-about.PNG"/>
+    <img class="slidejs-slide img-responsive"src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\diehl-login.PNG">
+    <img class="slidejs-slide img-responsive"src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\portfolio.PNG"/>
+    <img class="slidejs-slide img-responsive"src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\quick-email-design.PNG"/>
+    <img class="slidejs-slide img-responsive"src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\Simple-List-iphone5.PNG"/>
+    <img class="slidejs-slide img-responsive"src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\Simple-List-iphone6plus.PNG"/>
+    <img class="slidejs-slide img-responsive"src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\Simple-List-landscape-searchbar.PNG"/>
+    <img class="slidejs-slide img-responsive"src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\Simple-List-responsive-small.PNG"/>
+    <img class="slidejs-slide img-responsive"src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\web-artist-jquery-scroll.PNG"/>
+    <img class="slidejs-slide img-responsive"src="C:\Users\John\Documents\GitHub\full-page-lander\portfolio-pictures\web-artist-landing.PNG"/>
+  </div><!--end of slides-->
+  
+</div><!--end of slides-wrapper-->
   <!--  footer section of page with social icons-->
   <div class="container foot-wrapper navbar-fixed-bottom">
     <ul id="social-buttons"class="list-unstyled list-inline text-center">
@@ -78,10 +81,12 @@
 
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!--  bootstrap-->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--  transition/animation JavaScript-->
     <script src="main.js"></script>
     <script src="assets/gallery.js"></script>
+    <!-- slideshow java script -->
     <script src="assets/jquery.slides.min.js"></script>
 
   </body>
