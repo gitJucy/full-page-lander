@@ -11,6 +11,6 @@ $(document).ready(function(){
       $('#social-buttons').hide().delay(7000).fadeIn(1000);
 
       $('#hint').hide().delay(10000).fadeIn();
-      $('#gallery').hide();
+      $('#slides').hide();
 
     });
