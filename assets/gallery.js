@@ -1,11 +1,10 @@
 var $gallery ='#gallery';
-$(function(){
 
 
 //sclick function to open the gallery
 
 $('#future').click(function(){
-  $('.slides-wrapper').delay(1000).fadeIn(1000);
+  $('.slides-wrapper').show();
   $('#content').fadeOut(500);
   $('#name').fadeOut(500);
   $('#future').fadeOut(500);
@@ -13,12 +12,13 @@ $('#future').click(function(){
 
 });
 
+$(function(){
 
-//galery div
-$(document).ready(function(){
+// gallery div
   $('.slides-wrapper').slick({
-    adptiveHeight: true,
     dots:true,
-    centerMode:true
-  });
+    adaptiveHeight:true,
+    infinite:true,
+
+});
 });
