@@ -10,8 +10,6 @@ $(document).ready(function(){
 //timing for social media icon bar fade in
       $('#social-buttons').hide().delay(7000).fadeIn(1000);
 
-      $('#hint').hide().delay(10000).fadeIn();
-      $('#slides').hide();
       $('.slides-wrapper').hide();
       $('#find').hide();
     });
