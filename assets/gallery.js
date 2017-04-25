@@ -4,7 +4,7 @@ var $gallery ='#gallery';
 //click function to open the gallery
 
 $('#future').click(function(){
-  $('.slides-wrapper').show();
+  $('.slides-wrapper').delay(500).fadeIn(500);
   $('#content').fadeOut(500);
   $('#name').fadeOut(500);
   $('#future').fadeOut(500);
