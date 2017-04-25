@@ -1,7 +1,7 @@
 var $gallery ='#gallery';
 
 
-//sclick function to open the gallery
+//click function to open the gallery
 
 $('#future').click(function(){
   $('.slides-wrapper').show();
@@ -16,8 +16,9 @@ $(function(){
 
 // gallery div
   $('.slides-wrapper').slick({
-    dots:true,
-    adaptiveHeight:true,
+
+    dots:false,
+    adaptiveHeight:false,
     infinite:true,
 
 });
