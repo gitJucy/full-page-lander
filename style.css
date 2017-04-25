@@ -91,21 +91,13 @@ i{
   width:80%;
   margin:0 auto;
 }
+.slides-wrapper>.slide{
+  padding:20px;
 
 
-/*.gallery .slides{
-  display:block;
-  width:6000px;
-  height: 800px;
-  margin:0;
-  padding:0:
-  list-style-type:none;
-}*/
-/*.gallery .slide{
-  float:left;
-  width:1600px;;
-  height:800px;
-}*/
+
+}
+
 
 
 /*mobile responsive styling*/
